@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333556;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-box {
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    background-image: url(./perfil.png);
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333556;
+}
